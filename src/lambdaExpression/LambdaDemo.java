@@ -8,7 +8,7 @@ interface MyLambda {
 
 public class LambdaDemo {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         MyLambda m = () -> {
             System.out.println("Hello world");

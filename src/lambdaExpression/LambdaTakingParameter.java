@@ -1,7 +1,7 @@
 package lambdaExpression;
 
 interface AddValues {
-    public int add(int x, int y);
+    int add(int x, int y);
 }
 
 public class LambdaTakingParameter {
