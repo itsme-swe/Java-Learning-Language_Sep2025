@@ -10,5 +10,6 @@ public class MainClass_OfDemo1 {
         List<String> names = Arrays.asList("Harsh", "Radhu", "Juhu", "vasu");
 
         List<StudentClass_Demo1> students = names.stream().map(StudentClass_Demo1::new).toList();
+
     }
 }

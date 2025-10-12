@@ -15,5 +15,12 @@ public class StudentClass_Demo1 {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "StudentClass_Demo1{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
 
