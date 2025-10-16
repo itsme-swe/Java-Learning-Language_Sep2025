@@ -28,5 +28,9 @@ public class CheckAndRemoveElement {
         }
 
         // op: 8 5 2 10
+
+        list.remove(Integer.valueOf(2));    // Even we can remove an element also from array list without mentioning index value
+
+        System.out.println(list);   // [8, 5, 10]
     }
 }
